@@ -4,8 +4,8 @@
 // export app
 
 import React from 'react';
-import portContainer from './components/portContainer';
+import PortContainer from './components/PortContainer';
 
-const App = () => <portContainer />;
+const App = () => <PortContainer />;
 
 export default App;
