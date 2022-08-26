@@ -15,7 +15,7 @@ import Home from './pages/Home';
 import Navbar from './Navbar';
 
 // starting on home :)
-export default function portContainer() {
+export default function PortContainer() {
     const [ currentPage, setCurrent ] = useState('Home');
 
     // below are all the navbar selects with what info it renders for the users
