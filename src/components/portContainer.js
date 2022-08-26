@@ -30,5 +30,15 @@ export default function portContainer() {
             return <Contact />;
         }
         return <Portfolio />
-    }
+    };
+
+    const handleChange = (page) => setCurrent(page);
+
+    // this is where it tells it to run to render
+    return (
+        <section>
+            <Navbar currentPage = {currentPage} handleChange = {handleChange} />
+            {renderPage()}
+        </section>
+    );
 }
