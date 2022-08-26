@@ -5,4 +5,16 @@
 
 import React from 'react';
 
+function Navbar({ currentPage, handleChange }) {
+    return (
+        <ul>
+            <li>
+                <a href='#home'
+                onClick={() => handleChange('Home')}
+                className={ currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+            </li>
+        </ul>
+    )
+}
+
 export default Navbar;
