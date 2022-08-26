@@ -6,3 +6,14 @@
 
 // render pages for about, contact, portfolio, and home.
 // how to handle a page change
+
+import React, { useState } from 'react';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+import Home from './pages/Home';
+import Navbar from './navbar';
+
+export default function portContainer() {
+    const 
+}
