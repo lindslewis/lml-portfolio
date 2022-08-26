@@ -14,6 +14,21 @@ import Portfolio from './pages/Portfolio';
 import Home from './pages/Home';
 import Navbar from './navbar';
 
+// starting on home :)
 export default function portContainer() {
-    const 
+    const [ currentPage, setCurrent ] = useState('Home');
+
+    // below are all the navbar selects with what info it renders for the users
+    const renderPage = () => {
+        if (currentPage === 'Home') {
+            return <Home />;
+        }
+        if (currentPage === 'About') {
+            return <About />;
+        }
+        if (currentPage === 'Contact') {
+            return <Contact />;
+        }
+        return <Portfolio />
+    }
 }
