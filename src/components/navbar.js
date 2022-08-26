@@ -37,7 +37,7 @@ function Navbar({ currentPage, handleChange }) {
                 </a>
             </li>
         </ul>
-    )
+    );
 }
 
 export default Navbar;
