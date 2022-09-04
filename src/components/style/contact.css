@@ -1,0 +1,28 @@
+:root {
+    --dark: #001524;
+    --secondary: #15616d;
+    --light: #ffecd1;
+    --accent: #ff7d00;
+    --other: #78290f;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+* {
+    color: var(--light);
+}
+
+.pageCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+#title {
+
+}
