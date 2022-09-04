@@ -27,6 +27,7 @@
 
 #title {
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 #formCon {
@@ -56,4 +57,8 @@
     cursor: pointer;
     background-color: var(--other);
     border-color: var(--other);
+}
+
+#emailVal {
+    color: red;
 }

@@ -1,3 +1,10 @@
+:root {
+    --dark: #001524;
+    --secondary: #15616d;
+    --light: #ffecd1;
+    --accent: #ff7d00;
+    --other: #78290f;
+}
 
 .header {
     width: 100%;
@@ -18,7 +25,7 @@
 
 
 /* contact section
-1. form with name, email address, and a message box
+1. form with name, email address, and a message box-- done
 2. move cursor out of form fields-- tell you it's required
 3. notification about invalid email address, if an invalid one is entered
 4. resume section-- downloadable resume, list of skills */

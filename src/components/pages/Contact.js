@@ -7,6 +7,7 @@ import React, {useState} from 'react';
 import { Button, Form } from 'react-bootstrap';
 import '../style/contact.css';
 import { send } from 'emailjs-com';
+import validator from 'validator';
 
 export default function Contact() {
     const [toSend, setToSend] = useState({
@@ -15,6 +16,18 @@ export default function Contact() {
         reply_to:'',
     });
 
+    const [emailError, setEmailError] = useState('')
+    const validateEmail = (e) => {
+        const userEmail = e.target.value
+
+        if (validator.isEmail(userEmail)){
+            setEmailError('')
+        } else {
+            setEmailError('Invalid email, please enter a valid email.')
+        }
+    }
+
+    // to send emails :)
     const onSubmit = (e) => {
         e.preventDefault();
         send(
@@ -33,12 +46,14 @@ export default function Contact() {
 
     const handleChange = (e) => {
         setToSend({...toSend, [e.target.name]: e.target.value});
+        validateEmail([e.target.value])
     };
 
     return (
         <section className='pageCon'>
-            <h1 id='title'>Contact Me</h1>
+            
             <Form onSubmit={onSubmit} id="formCon">
+            <h1 id='title'>Contact Me</h1>
                 <Form.Group controlId='formName'>
                     <Form.Label className='contactLabel'>
                         Your Name
@@ -51,6 +66,9 @@ export default function Contact() {
                         Email Address
                     </Form.Label>
                     <Form.Control className="input" name="reply_to" value={toSend.reply_to} onChange={handleChange} type='email' placeholder='Enter Email Here'/>
+                    <span id="emailVal" aria-describedby='validation for email'>
+                        {emailError}
+                    </span>
                 </Form.Group>
                 <Form.Group controlId='formText'>
                     <Form.Label className='contactLabel'>
