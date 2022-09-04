@@ -6,12 +6,14 @@
     --other: #78290f;
 }
 
-body {
+/* body {
     background-color: var(--dark);
-}
+} */
 
 * {
+    font-family: 'Raleway', sans-serif;
     color: var(--light);
+    background-color: var(--dark);
 }
 
 .pageCon {
@@ -24,5 +26,14 @@ body {
 }
 
 #title {
+    margin-bottom: 2rem;
+}
 
+#formCon {
+    width: 50%;
+}
+
+.contactLabel {
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
