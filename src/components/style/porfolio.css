@@ -24,7 +24,16 @@
     margin-right: 1em;
 }
 
+.repoCon {
+    margin-top: 1em;
+}
+
 #beatsImg {
     width: 25rem;
+    border-radius: 5px;
+}
+
+#shelfImg {
+    width: 30rem;
     border-radius: 5px;
 }

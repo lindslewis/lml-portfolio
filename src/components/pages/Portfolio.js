@@ -19,6 +19,9 @@ export default function Portfolio() {
                         <a href="https://lindslewis.github.io/music-generator/">
                             <Image id="beatsImg" src={require('../browserHomePagejpg.jpg')}/>
                         </a>
+                    <p className="repoCon">
+                        See the repository <a href="https://github.com/lindslewis/music-generator">here</a>.
+                    </p>
 
                 </section>
 
@@ -28,7 +31,7 @@ export default function Portfolio() {
                     </h3>
                     
                         <a href="https://shelf-space.herokuapp.com/">
-                            <Image id="beatsImg" src={require('../browserHomePagejpg.jpg')}/>
+                            <Image id="shelfImg" src={require('../shelfspace.jpg')}/>
                         </a>
 
                 </section>
