@@ -30,13 +30,13 @@ function Navbar({ currentPage, handleChange }) {
        
         </section>
         <ul className='nav nav-tabs mt-1'>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
                 <a href='#home'
                 onClick={() => handleChange('Home')}
                 className = { currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
                     Home
                 </a>
-            </li>
+            </li> */}
             <li className='nav-item'>
                 <a href='#about'
                 onClick={() => handleChange('About')} className = { currentPage === 'About' ? 'nav-link active' : 'nav-link'}>

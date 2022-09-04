@@ -1,0 +1,30 @@
+:root {
+    --dark: #001524;
+    --secondary: #15616d;
+    --light: #ffecd1;
+    --accent: #ff7d00;
+    --other: #78290f;
+}
+
+#portCon {
+    margin-top: 2em;
+}
+
+#portRow {
+    display: flex;
+    justify-content: center;
+}
+
+#portRow2 {
+    display: flex;
+    justify-content: center;
+}
+.portfolio {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#beatsImg {
+    width: 25rem;
+    border-radius: 5px;
+}
