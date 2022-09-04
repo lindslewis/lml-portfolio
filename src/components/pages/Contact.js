@@ -17,6 +17,18 @@ export default function Contact() {
 
     const onSubmit = (e) => {
         e.preventDefault();
+        send(
+            'service_vpm15qa',
+            'template_r7r2l2e',
+            toSend,
+            // 'USER ID'
+        )
+        .then((res) => {
+            console.log('success!', res.status, res.text);
+        })
+        .catch((err) => {
+            console.log('Failed to send', err);
+        });
     };
 
     const handleChange = (e) => {
@@ -31,22 +43,22 @@ export default function Contact() {
                     <Form.Label className='contactLabel'>
                         Your Name
                     </Form.Label>
-                    <Form.Control name="from_name" value={toSend.from_name} onChange={handleChange} placeholder='Enter Name Here'>
+                    <Form.Control className="input" name="from_name" value={toSend.from_name} onChange={handleChange} placeholder='Enter Name Here'>
                     </Form.Control>
                 </Form.Group>
                 <Form.Group controlId='formEmail'>
                     <Form.Label className='contactLabel'>
                         Email Address
                     </Form.Label>
-                    <Form.Control name="reply_to" value={toSend.reply_to} onChange={handleChange} type='email' placeholder='Enter Email Here'/>
+                    <Form.Control className="input" name="reply_to" value={toSend.reply_to} onChange={handleChange} type='email' placeholder='Enter Email Here'/>
                 </Form.Group>
                 <Form.Group controlId='formText'>
                     <Form.Label className='contactLabel'>
                         Enter your message here.
                     </Form.Label>
-                    <Form.Control name="message" value={toSend.message} onChange={handleChange} as="textarea" rows={5} />
+                    <Form.Control className="input" name="message" value={toSend.message} onChange={handleChange} as="textarea" rows={5} />
                 </Form.Group>
-                <Form.Group>
+                <Form.Group className='sendBtn'>
                     <Button type="submit">Send</Button>
                 </Form.Group>
 
