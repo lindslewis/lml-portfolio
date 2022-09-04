@@ -18,7 +18,7 @@
 
 .pageCon {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100vw;
@@ -61,4 +61,30 @@
 
 #emailVal {
     color: red;
+}
+
+#resumeCon {
+    float:right;
+    margin-left: 5rem;
+}
+
+#resumeBtnCon {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    margin-bottom: 1em;
+}
+
+#resumeBtnCon:hover{
+    background-color: var(--other);
+    border-color: var(--other8uij8);
+}
+
+#resumeBtn {
+    background-color: var(--accent);
+    color: var(--light);
+    text-decoration: none;
+}
+
+#resumeBtn:hover {
+    background-color: var(--other);
 }
