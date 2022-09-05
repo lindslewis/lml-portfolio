@@ -57,42 +57,42 @@ export default function Portfolio() {
             <section id='portRow2'>
                 <section className='portfolio'>
                     <h3 className='portTitle'>
-                        beats collective
+                        note taker
                     </h3>
                     
-                        <a href="https://lindslewis.github.io/music-generator/">
-                            <Image id="beatsImg" src={require('../browserHomePagejpg.jpg')}/>
+                        <a href="https://lindslewis-note-taker.herokuapp.com/">
+                            <Image id="notesImg" src={require('../notetaker.jpg')}/>
                         </a>
                     <p className="repoCon">
-                        See the repository <a href="https://github.com/lindslewis/music-generator">here</a>.
+                        See the repository <a href="https://github.com/lindslewis/note-taker">here</a>.
                     </p>
 
                 </section>
 
                 <section className='portfolio'>
                     <h3 className='portTitle'>
-                        beats collective
+                        weather radar
                     </h3>
                     
-                        <a href="https://lindslewis.github.io/music-generator/">
-                            <Image id="beatsImg" src={require('../browserHomePagejpg.jpg')}/>
+                        <a href="https://lindslewis.github.io/weather-radar/">
+                            <Image id="radarImg" src={require('../weatherradar.jpg')}/>
                         </a>
                     <p className="repoCon">
-                        See the repository <a href="https://github.com/lindslewis/music-generator">here</a>.
+                        See the repository <a href="https://github.com/lindslewis/weather-radar">here</a>.
                     </p>
 
                 </section>
 
                 <section className='portfolio'>
                     <h3 className='portTitle'>
-                        beats collective
+                        rock paper scissors
                     </h3>
                     
-                        <a href="https://lindslewis.github.io/music-generator/">
-                            <Image id="beatsImg" src={require('../browserHomePagejpg.jpg')}/>
+                        <a href="https://lindslewis.github.io/rock-paper-scissors/">
+                            <Image id="rpsImg" src={require('../rps.jpg')}/>
                         </a>
                     <p className="repoCon">
-                        See the repository <a href="https://github.com/lindslewis/music-generator">here</a>.
+                        See the repository <a href="https://github.com/lindslewis/rock-paper-scissors">here</a>.
                     </p>
 
                 </section>
