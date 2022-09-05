@@ -11,21 +11,29 @@
     height: 15vh;
 };
 
-/* .headerCon a img {
-    height: 10vh;
-} */
+#footer {
+    height: 30em;
+    background-image: linear-gradient(#001524, #15616d, #ff7d00)!important;
+}
 
-/* scaling the svg images for the icons */
+#footerUl {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerList {
+    text-decoration: none;
+    list-style: none;
+    margin: 1em 4em 1em 4em;
+}
+
+.footerList a {
+    color: var(--light);
+}
+
+
 .figure {
-    display: block;
-    box-sizing: border-box;
-    padding: 0.5em 1em;
-    margin: 1em auto;
-};
-
-
-/* contact section
-1. form with name, email address, and a message box-- done
-2. move cursor out of form fields-- tell you it's required --come back
-3. notification about invalid email address, if an invalid one is entered-- code is there but not working
-4. resume section-- downloadable resume, list of skills */
+    height: 2em;
+    color: var(--light);
+}
