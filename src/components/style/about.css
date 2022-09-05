@@ -1,0 +1,36 @@
+:root {
+    --dark: #001524;
+    --secondary: #15616d;
+    --light: #ffecd1;
+    --accent: #ff7d00;
+    --other: #78290f;
+}
+
+#introCon {
+    margin-left: 1rem;
+}
+
+#aboutCon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#avatarCon {
+    margin-top: 2em;
+    margin-left: 2em;
+}
+#avatar {
+    border-radius: 50%;
+    height: 20rem;
+}
+
+#aboutText {
+    float: right;
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    align-self: center;
+    width: 80%;
+}

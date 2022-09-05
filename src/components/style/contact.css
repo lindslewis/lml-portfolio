@@ -1,0 +1,89 @@
+:root {
+    --dark: #001524;
+    --secondary: #15616d;
+    --light: #ffecd1;
+    --accent: #ff7d00;
+    --other: #78290f;
+}
+
+/* body {
+    background-color: var(--dark);
+} */
+
+* {
+    font-family: 'Raleway', sans-serif;
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+.pageCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+#title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#formCon {
+    width: 50%;
+}
+
+.contactLabel {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.sendBtn {
+    /* justify-self: center;
+    align-self: center; */
+    margin-top: 1rem;
+}
+/* not going to fight with the fact that it won't center */
+.sendBtn Button {
+    padding-left: 2em;
+    padding-right: 2em;
+    align-self: center;
+    background-color: var(--accent);
+    border-color: var(--accent);
+}
+
+.sendBtn Button:hover {
+    cursor: pointer;
+    background-color: var(--other);
+    border-color: var(--other);
+}
+
+#emailVal {
+    color: red;
+}
+
+#resumeCon {
+    margin-left: 5rem;
+}
+
+#resumeBtnCon {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    margin-bottom: 1em;
+}
+
+#resumeBtnCon:hover{
+    background-color: var(--other);
+    border-color: var(--other8uij8);
+}
+
+#resumeBtn {
+    background-color: var(--accent);
+    color: var(--light);
+    text-decoration: none;
+}
+
+#resumeBtn:hover {
+    background-color: var(--other);
+}

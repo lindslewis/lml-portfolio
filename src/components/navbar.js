@@ -4,17 +4,20 @@
 // this will structure the usage of the navbar and the tabs, likely what's active or not, and a decent chunk of page changes I assume??
 
 import React from 'react';
+import './style/header.css'
 
 function Navbar({ currentPage, handleChange }) {
     return (
-        <ul className='nav nav-tabs'>
-            <li className='nav-item'>
+    <section className="header p-2" role="navigation">
+
+        <ul className='nav nav-tabs mt-1'>
+            {/* <li className='nav-item'>
                 <a href='#home'
                 onClick={() => handleChange('Home')}
                 className = { currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
                     Home
                 </a>
-            </li>
+            </li> */}
             <li className='nav-item'>
                 <a href='#about'
                 onClick={() => handleChange('About')} className = { currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
@@ -36,7 +39,19 @@ function Navbar({ currentPage, handleChange }) {
                     Contact
                 </a>
             </li>
+            <li className='nav-item'>
+                <a href='#resume'
+                onClick={() => handleChange('Resume')}
+                className= { currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
+                    Resume
+                </a>
+            </li>
+
         </ul>
+
+    </section>
+    
+        
     );
 }
 

@@ -1,0 +1,39 @@
+:root {
+    --dark: #001524;
+    --secondary: #15616d;
+    --light: #ffecd1;
+    --accent: #ff7d00;
+    --other: #78290f;
+}
+
+.header {
+    width: 100%;
+    height: 15vh;
+};
+
+#footer {
+    height: 30em;
+    background-image: linear-gradient(#001524, #15616d, #ff7d00)!important;
+}
+
+#footerUl {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerList {
+    text-decoration: none;
+    list-style: none;
+    margin: 1em 4em 1em 4em;
+}
+
+.footerList a {
+    color: var(--light);
+}
+
+
+.figure {
+    height: 2em;
+    color: var(--light);
+}
