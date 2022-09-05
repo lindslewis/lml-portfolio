@@ -12,6 +12,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Navbar from './Navbar';
+import Resume from './pages/Resume';
 
 // starting on home :)
 export default function PortContainer() {
@@ -24,6 +25,8 @@ export default function PortContainer() {
         }
         if (currentPage === 'Contact') {
             return <Contact />;
+        } if (currentPage === 'Resume') {
+            return <Resume />;
         }
         return <Portfolio />
     };
