@@ -4,7 +4,7 @@
 
 This portfolio is a first go at creating my own portfolio via React. While it is currently still very basic, I am excited to continue to expand it and turn it into a fun space that represents myself and my work. In the  next few weeks, expect to see some growth in animation, theme, and overall layout!
 
-Please visit the deployed site [here]().
+Please visit the deployed site [here](https://lindslewis.github.io/lml-portfolio/#about).
 
 ## table-of-contents
 
