@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lml-portfolio/static/css/main.aa73c4f5.css",
+    "main.js": "/lml-portfolio/static/js/main.9e66c29f.js",
+    "static/media/browserHomePagejpg.jpg": "/lml-portfolio/static/media/browserHomePagejpg.903935d6ba8f0bdd3e58.jpg",
+    "static/media/shelfspace.jpg": "/lml-portfolio/static/media/shelfspace.d9b33cd294747c766ec9.jpg",
+    "static/media/FRONTPAGE.jpg": "/lml-portfolio/static/media/FRONTPAGE.9aff01ebdca63882fc1b.jpg",
+    "static/media/weatherradar.jpg": "/lml-portfolio/static/media/weatherradar.2f6cd255f4255e7beb06.jpg",
+    "static/media/rps.jpg": "/lml-portfolio/static/media/rps.a0460d10cf2ff94c312a.jpg",
+    "static/media/notetaker.jpg": "/lml-portfolio/static/media/notetaker.b8086dadd92dac55c64d.jpg",
+    "static/media/smol-avatar.jpg": "/lml-portfolio/static/media/smol-avatar.8d8c84909d944d798cc3.jpg",
+    "index.html": "/lml-portfolio/index.html",
+    "main.aa73c4f5.css.map": "/lml-portfolio/static/css/main.aa73c4f5.css.map",
+    "main.9e66c29f.js.map": "/lml-portfolio/static/js/main.9e66c29f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa73c4f5.css",
+    "static/js/main.9e66c29f.js"
+  ]
+}
