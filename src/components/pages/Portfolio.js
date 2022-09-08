@@ -85,14 +85,14 @@ export default function Portfolio() {
 
                 <section className='portfolio'>
                     <h3 className='portTitle'>
-                        rock paper scissors
+                       The Hollow Reach
                     </h3>
                     
-                        <a href="https://lindslewis.github.io/rock-paper-scissors/">
-                            <Image id="rpsImg" src={require('../rps.jpg')}/>
+                        <a href="https://funny-meerkat-dcfce3.netlify.app/">
+                            <Image id="rpsImg" src={require('../components/unknown.png')}/>
                         </a>
                     <p className="repoCon">
-                        See the repository <a href="https://github.com/lindslewis/rock-paper-scissors">here</a>.
+                        See the repository <a href="https://github.com/alonpatashnik/rpg-word-game-frontend">here</a>.
                     </p>
 
                 </section>
