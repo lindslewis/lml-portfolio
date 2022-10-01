@@ -14,6 +14,7 @@ import Portfolio from './pages/Portfolio';
 import Navbar from './Navbar';
 import Resume from './pages/Resume';
 import Image from 'react-bootstrap/Image'
+import Home from './pages/Home'
 
 
 import './style/header.css'
@@ -30,6 +31,8 @@ export default function PortContainer() {
             return <Contact />;
         } if (currentPage === 'Resume') {
             return <Resume />;
+        } if (currentPage === 'Home') {
+            return <Home />;
         }
         return <Portfolio />
     };
