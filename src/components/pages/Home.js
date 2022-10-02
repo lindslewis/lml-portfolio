@@ -7,6 +7,9 @@ import React from 'react';
 
 export default function Home() {
     return (
-        <h1>Home Placeholder</h1>
+        <section>
+            <h1 id='firstName'>Lindsay</h1>
+            <h1 id='lastName'>Lewis</h1>
+        </section>
     );
 }
