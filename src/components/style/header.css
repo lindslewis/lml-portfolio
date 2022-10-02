@@ -9,7 +9,14 @@
 .header {
     width: 100%;
     height: 15vh;
+    position: relative;
 };
+
+.nav {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
 
 #footer {
     height: 30em;
