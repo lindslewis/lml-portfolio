@@ -44,7 +44,7 @@ export default function PortContainer() {
         <section>
                 {/* <Routes>
                     <Route> */}
-                    <Navbar currentPage = {currentPage} handleChange = {handleChange} />
+        <Navbar currentPage = {currentPage} handleChange = {handleChange} />
                  
                     {/* </Route>
                 </Routes> */}
@@ -73,7 +73,7 @@ export default function PortContainer() {
 
                         </ul>
 
-                    </footer>
+            </footer>
         </section>
     );
 }

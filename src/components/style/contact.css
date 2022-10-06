@@ -42,12 +42,14 @@
 .sendBtn {
     /* justify-self: center;
     align-self: center; */
-    margin-top: 1rem;
+    margin-top: 2em;
 }
 /* not going to fight with the fact that it won't center */
 .sendBtn Button {
-    padding-left: 2em;
-    padding-right: 2em;
+    /* padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 3em;
+    padding-right:3em; */
     align-self: center;
     background-color: var(--accent);
     border-color: var(--accent);

@@ -18,7 +18,12 @@
     position: absolute;
 }
 
-#footer {
+.nav .nav-item a {
+    color: var(--light);
+}
+
+/* want this to be sticky at the bottom OR I guess I could also put these into the header */
+.footer {
     height: 30em;
     background-image: linear-gradient(#001524, #15616d, #ff7d00)!important;
 }

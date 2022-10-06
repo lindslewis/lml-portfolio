@@ -7,9 +7,9 @@ import React from 'react';
 
 export default function Home() {
     return (
-        <section>
-            <h1 id='firstName'>Lindsay</h1>
-            <h1 id='lastName'>Lewis</h1>
+        <section id='fullName'>
+            <h1 id='firstName' className='fs-1'>Lindsay</h1>
+            <h1 id='lastName' className='fs-1'>Lewis</h1>
         </section>
     );
 }
