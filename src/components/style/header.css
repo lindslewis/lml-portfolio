@@ -6,6 +6,13 @@
     --other: #78290f;
 }
 
+body {
+    background-image: url("../images/daud-balling-grsWdC_EH7s-unsplash.jpg")!important;
+    background-position: center;
+    background-size: cover;
+    
+}
+
 .header {
     width: 100%;
     height: 15vh;

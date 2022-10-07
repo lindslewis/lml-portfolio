@@ -6,7 +6,12 @@
     --other: #78290f;
 }
 
+/* #fullName {
+    background-image: url("../images/daud-balling-grsWdC_EH7s-unsplash.jpg")!important;
+} */
+
 #firstName {
+    font-family: 'Bebas Neue', cursive;
     font-size: 10rem;
     font-weight: bolder;
     letter-spacing: .25rem;
@@ -15,6 +20,7 @@
 }
 
 #lastName {
+    font-family: 'Bebas Neue', cursive;
     font-size: 10rem;
     font-weight: bolder;
     letter-spacing: .25rem;

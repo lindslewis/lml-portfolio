@@ -41,7 +41,7 @@ export default function PortContainer() {
 
     // this is where it tells it to run to render
     return (
-        <section>
+        <section id='portCon'>
                 {/* <Routes>
                     <Route> */}
         <Navbar currentPage = {currentPage} handleChange = {handleChange} />
