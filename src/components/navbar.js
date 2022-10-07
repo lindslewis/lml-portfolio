@@ -6,18 +6,18 @@
 import React from 'react';
 import './style/header.css'
 
+
 function Navbar({ currentPage, handleChange }) {
     return (
     <section className="header p-2" role="navigation">
-
+        <section>
+            <p>
+                Lindsay
+            </p>
+            <p>Lewis</p>
+        </section>
         <ul className='nav nav-tabs mt-1'>
-            {/* <li className='nav-item'>
-                <a href='#home'
-                onClick={() => handleChange('Home')}
-                className = { currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
-                    Home
-                </a>
-            </li> */}
+
                <li className='nav-item'>
                 <a href='#home'
                 onClick={() => handleChange('Home')} className = { currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
