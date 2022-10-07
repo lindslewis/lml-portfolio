@@ -9,8 +9,11 @@ import '../style/home.css'
 export default function Home() {
     return (
         <section id='fullName'>
-            <h1 id='firstName'>Lindsay</h1>
-            <h1 id='lastName'>Lewis</h1>
+           
+                <h1 id='firstName'>Lindsay</h1>
+                <h1 id='lastName'>Lewis</h1>
+  
+
         </section>
     );
 }
