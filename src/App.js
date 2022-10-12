@@ -6,6 +6,10 @@
 import React from 'react';
 import PortContainer from './components/PortContainer';
 
-const App = () => <PortContainer />;
+const App = () => {
+    return (
+    <PortContainer />
+    );
+}
 
 export default App;
