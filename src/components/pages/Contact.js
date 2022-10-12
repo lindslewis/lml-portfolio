@@ -50,37 +50,49 @@ export default function Contact() {
     };
 
     return (
-        <section className='pageCon'>
-            
+        <section className='pageCon d-flex flex-column'>
+
             <Form onSubmit={onSubmit} id="formCon">
             <h1 id='title'>Contact Me</h1>
                 <Form.Group controlId='formName'>
-                    <Form.Label className='contactLabel'>
+                    <Form.Label className='contactLabel fs-5'>
                         Your Name
                     </Form.Label>
-                    <Form.Control className="input" name="from_name" value={toSend.from_name} onChange={handleChange} placeholder='Enter Name Here'>
+                    <Form.Control className="input fs-5" name="from_name" value={toSend.from_name} onChange={handleChange} placeholder='Enter Name Here'>
                     </Form.Control>
                 </Form.Group>
                 <Form.Group controlId='formEmail'>
-                    <Form.Label className='contactLabel'>
+                    <Form.Label className='contactLabel fs-5'>
                         Email Address
                     </Form.Label>
-                    <Form.Control className="input" name="reply_to" value={toSend.reply_to} onChange={handleChange} type='email' placeholder='Enter Email Here'/>
+                    <Form.Control className="input fs-5" name="reply_to" value={toSend.reply_to} onChange={handleChange} type='email' placeholder='Enter Email Here'/>
                     <span id="emailVal" aria-describedby='validation for email'>
                         {emailError}
                     </span>
                 </Form.Group>
                 <Form.Group controlId='formText'>
-                    <Form.Label className='contactLabel'>
+                    <Form.Label className='contactLabel fs-5'>
                         Enter your message here.
                     </Form.Label>
-                    <Form.Control className="input" name="message" value={toSend.message} onChange={handleChange} as="textarea" rows={5} />
+                    <Form.Control className="input fs-5" name="message" value={toSend.message} onChange={handleChange} as="textarea" rows={5} />
                 </Form.Group>
-                <Form.Group className='sendBtn'>
-                    <Button type="submit">Send</Button>
+                <Form.Group className='sendBtn d-flex justify-content-center'>
+                    <Button className="px-5 py-2 fs-4" type="submit">Send</Button>
                 </Form.Group>
 
             </Form>
+
+            {/* not sure the below is necessary... */}
+            {/* <p className='mt-4 fs-5'>If you'd like to reach out, be sure to email me via the form above, or you can also reach out at:</p>
+
+            <ul>
+                <li>
+                    Github
+                </li>
+                <li>
+                    LinkedIn
+                </li>
+            </ul> */}
             
         </section>
 

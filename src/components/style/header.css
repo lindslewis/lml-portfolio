@@ -6,12 +6,31 @@
     --other: #78290f;
 }
 
+/* body {
+    background-image: url("../images/daud-balling-grsWdC_EH7s-unsplash.jpg")!important;
+    background-position: center;
+    background-size: cover;
+    
+} */
+
 .header {
     width: 100%;
     height: 15vh;
+    position: relative;
 };
 
-#footer {
+.nav {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.nav .nav-item a {
+    color: var(--light);
+}
+
+/* want this to be sticky at the bottom OR I guess I could also put these into the header */
+.footer {
     height: 30em;
     background-image: linear-gradient(#001524, #15616d, #ff7d00)!important;
 }

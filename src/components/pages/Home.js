@@ -4,9 +4,16 @@
     // export
 
 import React from 'react';
+import '../style/home.css';
 
 export default function Home() {
     return (
-        <h1>Home Placeholder</h1>
+        <section id='fullName'>
+           
+                <h1 id='firstName'>Lindsay</h1>
+                <h1 id='lastName'>Lewis</h1>
+  
+
+        </section>
     );
 }
