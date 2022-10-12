@@ -15,6 +15,7 @@ root.render(
         <App />
     </React.StrictMode>
 );
+// way below is stupid. don't do that.
 // ReactDOM.render(<App />, document.getElementById('root'));
 
 // not sure what else I need at this point, so moving on
