@@ -89,7 +89,7 @@ export default function Portfolio() {
                     </h3>
                     
                         <a href="https://funny-meerkat-dcfce3.netlify.app/">
-                            <Image id="rpsImg" src={require('../unknown.png')}/>
+                            <Image id="rpsImg" src={require('../components/unknown.png')}/>
                         </a>
                     <p className="repoCon">
                         See the repository <a href="https://github.com/alonpatashnik/rpg-word-game-frontend">here</a>.
