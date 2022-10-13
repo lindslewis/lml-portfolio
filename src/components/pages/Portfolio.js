@@ -4,15 +4,15 @@
 // export
 
 import React from 'react';
-import '../style/porfolio.css'
-import { Image } from 'react-bootstrap';
+// import '../style/porfolio.css'
+// import { Image } from 'react-bootstrap';
 
 export default function Portfolio() {
     return (
         <section id="portCon">
             <section id='portRow'>
                 <section className='portfolio'>
-                    <h3 className='portTitle'>
+                    {/* <h3 className='portTitle'>
                         beats collective
                     </h3>
                     
@@ -21,12 +21,12 @@ export default function Portfolio() {
                         </a>
                     <p className="repoCon">
                         See the repository <a href="https://github.com/lindslewis/music-generator">here</a>.
-                    </p>
+                    </p> */}
 
                 </section>
 
                 <section className='portfolio'>
-                    <h3 className='portTitle'>
+                    {/* <h3 className='portTitle'>
                         shelf space
                     </h3>
                     
@@ -35,12 +35,12 @@ export default function Portfolio() {
                         </a>
                     <p className="repoCon">
                         See the repository <a href="https://github.com/thegabe101/Lindsay-Noah-Gabe-Rojas-Project-2">here</a>.
-                    </p>
+                    </p> */}
 
                 </section>
 
                 <section className='portfolio'>
-                    <h3 className='portTitle'>
+                    {/* <h3 className='portTitle'>
                         studio ghibli quiz
                     </h3>
                     
@@ -49,14 +49,14 @@ export default function Portfolio() {
                         </a>
                     <p className="repoCon">
                         See the repository <a href="https://github.com/lindslewis/studio-ghibli-quiz">here</a>.
-                    </p>
+                    </p> */}
 
                 </section>
             </section>
 
             <section id='portRow2'>
                 <section className='portfolio'>
-                    <h3 className='portTitle'>
+                    {/* <h3 className='portTitle'>
                         note taker
                     </h3>
                     
@@ -93,7 +93,7 @@ export default function Portfolio() {
                         </a>
                     <p className="repoCon">
                         See the repository <a href="https://github.com/alonpatashnik/rpg-word-game-frontend">here</a>.
-                    </p>
+                    </p> */}
 
                 </section>
             </section>
