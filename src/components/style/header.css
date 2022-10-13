@@ -19,15 +19,39 @@
     position: relative;
 };
 
-.nav {
+Navbar {
     top: 0;
     bottom: 0;
     position: absolute;
 }
 
-.nav .nav-item a {
+#navCon {
+    display: flex;
+    justify-content: space-between;
+}
+
+#brand {
     color: var(--light);
 }
+
+#aboutLink {
+    color: var(--light);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#contactLink {
+    color: var(--light);
+    padding-left: 2rem;
+}
+
+#portLink {
+    color: var(--light);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
 
 /* want this to be sticky at the bottom OR I guess I could also put these into the header */
 .footer {

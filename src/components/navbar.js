@@ -12,8 +12,8 @@ function PageNavbar({ currentPage, handleChange }) {
     return (
     <section className="header p-2" role="navigation">
         <Navbar role="navigation">
-            <Container>
-                <Navbar.Brand href='#home' onClick={() => handleChange('Home')} className = { currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
+            <Container id="navCon">
+                <Navbar.Brand href='#home' id="brand" onClick={() => handleChange('Home')} className = { currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
                     <img alt=''
                     src='../images/LindsayBG.png'
                     width='30'
@@ -22,9 +22,11 @@ function PageNavbar({ currentPage, handleChange }) {
                     Lindsay Lewis
                 </Navbar.Brand>
                 <Nav>
-                    <Nav.Link href='#about' onClick={() => handleChange('About')} className = { currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</Nav.Link>
-                    <Nav.Link href='#portfolio' onClick={() => handleChange('Contact')} className = { currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Portfolio</Nav.Link> 
-                    <Nav.Link href='#contact' onClick={() => handleChange('Contact')} className = { currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</Nav.Link>
+                    <Nav.Link href='#about' id="aboutLink" onClick={() => handleChange('About')} className = { currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</Nav.Link>
+                    
+                    <Nav.Link href='#portfolio' id="portLink" onClick={() => handleChange('Contact')} className = { currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Portfolio</Nav.Link> 
+                    
+                    <Nav.Link href='#contact' id="contactLink" onClick={() => handleChange('Contact')} className = { currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</Nav.Link>
                 </Nav>
             </Container>
 
