@@ -85,7 +85,7 @@ export default function Portfolio() {
 
                 <section className='portfolio'>
                     <h3 className='portTitle'>
-                       The Hollow Reach
+                        The Hollow Reach
                     </h3>
                     
                         <a href="https://funny-meerkat-dcfce3.netlify.app/">
