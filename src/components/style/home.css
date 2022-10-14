@@ -9,6 +9,10 @@
 /* #fullName {
     background-image: url("../images/daud-balling-grsWdC_EH7s-unsplash.jpg")!important;
 } */
+#fullHome {
+    height: 100vh;
+    width: 100%;
+}
 
 #firstName {
     font-family: 'Bebas Neue', cursive;

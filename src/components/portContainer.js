@@ -15,6 +15,8 @@ import Navbar from './navbar';
 import Image from 'react-bootstrap/Image'
 import Home from './pages/Home'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 import './style/header.css'
 // starting on home :)
@@ -58,8 +60,7 @@ export default function PortContainer() {
                             </li>
                             <li className='footerList'>
                                 <a href="https://github.com/lindslewis">
-                                    <Image className="figure" src="https://cdn.jsdelivr.net/npm/simple-icons@7.8.0/icons/github.svg" alt="Github badge"></Image>
-                                   
+                                <FontAwesomeIcon icon="fa-brands fa-github" />
                                 </a>
                             </li>
                             <li className='footerList'>
