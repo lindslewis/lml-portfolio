@@ -4,15 +4,14 @@
 // this will structure the usage of the navbar and the tabs, likely what's active or not, and a decent chunk of page changes I assume??
 
 import React from 'react';
-import { Nav, Container, Navbar } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import './style/header.css'
 
 
 function PageNavbar({ currentPage, handleChange }) {
     return (
     <section className="header p-2" role="navigation">
-        <Navbar role="navigation">
-            <Container id="navCon">
+        <Navbar id="navCon" role="navigation">
                 <Navbar.Brand href='#home' id="brand" onClick={() => handleChange('Home')} className = { currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
                     <img alt=''
                     src='../images/LindsayBG.png'
@@ -28,8 +27,6 @@ function PageNavbar({ currentPage, handleChange }) {
                     
                     <Nav.Link href='#contact' id="contactLink" onClick={() => handleChange('Contact')} className = { currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</Nav.Link>
                 </Nav>
-            </Container>
-
         </Navbar>
     </section>
     );
