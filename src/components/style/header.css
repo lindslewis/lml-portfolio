@@ -35,23 +35,29 @@ Navbar {
 
 #brand {
     color: var(--light);
+    margin-left: 1em;
 }
 
 #aboutLink {
     color: var(--light);
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#aboutLink :hover {
+    color: var(--accent)!important;
 }
 
 #contactLink {
     color: var(--light);
-    padding-left: 2rem;
+    margin-left: 3em;
+    margin-right: 2em;
 }
 
 #portLink {
     color: var(--light);
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 
