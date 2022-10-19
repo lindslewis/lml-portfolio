@@ -12,6 +12,7 @@ export default function Home() {
             <section id='fullName'>
                 <h1 id='firstName'>Lindsay</h1>
                 <h1 id='lastName'>Lewis</h1>
+                <p>Full-Stack Developer</p>
             </section>
         </section>
 
