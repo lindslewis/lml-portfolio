@@ -5,3 +5,37 @@
     --accent: #ff7d00;
     --other: #78290f;
 }
+
+#aboutCon {
+    height: 75vh;
+}
+
+#accentIntro {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+#intro {
+    font-size: 5rem;
+}
+
+#myName {
+    font-size: 5rem;
+    align-self: center;
+    padding-right: 1rem;
+}
+
+#introName {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10rem;
+    font-weight: bold;
+    letter-spacing: .25rem;
+    align-self: center;
+    color: var(--accent);
+}
+
+#gladAb {
+    font-size: 5rem;
+}
+
