@@ -1,10 +1,11 @@
 import React from 'react';
 import '../style/about.css'
+import profile from '../images/avatar1.jpg'
 
 export default function About() {
     return (
         <section id='aboutCon'>
-            <section id="accentIntro">
+            {/* <section id="accentIntro">
                 <p id="intro">
                     Hi there!
                 </p>
@@ -17,7 +18,8 @@ export default function About() {
                 <p id="gladAb">
                     I'm so glad that you are here! 
                 </p>
-            </section>
+            </section> */}
+            <img src={profile} alt="headshot of Lindsay" className="rounded-circle" width="300"></img>
             <p id="devAb">
                 I'm a full-stack developer and recent University of Washington Coding Bootcamp graduate. I'm always looking for a challenge and opportunities to grow, not only as a developer, but as a human. 
             </p>
