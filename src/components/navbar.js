@@ -6,7 +6,7 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import './style/header.css'
-
+import avatar from './images/LindsayBG.png'
 
 function PageNavbar({ currentPage, handleChange }) {
     return (
@@ -14,7 +14,7 @@ function PageNavbar({ currentPage, handleChange }) {
         <Navbar id="navCon" role="navigation">
                 <Navbar.Brand href='#home' id="brand" onClick={() => handleChange('Home')} className = { currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
                     <img alt=''
-                    src='../images/LindsayBG.png'
+                    src={avatar}
                     width='30'
                     height='30'
                     className='d-inline-block align-top'/>
