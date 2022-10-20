@@ -18,12 +18,14 @@
 
 #intro {
     font-size: 5rem;
+    margin: 0;
 }
 
 #myName {
     font-size: 5rem;
     align-self: center;
     padding-right: 1rem;
+    margin: 0;
 }
 
 #introName {
@@ -33,9 +35,11 @@
     letter-spacing: .25rem;
     align-self: center;
     color: var(--accent);
+    margin: 0;
 }
 
 #gladAb {
     font-size: 5rem;
+    margin: 0;
 }
 
