@@ -42,22 +42,25 @@ Navbar {
     color: var(--light);
     margin-left: 3em;
     margin-right: 3em;
+    font-size: 1.25rem;
 }
 
-#aboutLink :hover {
-    color: var(--accent)!important;
-}
+/* #aboutLink :hover { */
+    /* color: var(--accent)!important; */
+/* } */
 
 #contactLink {
     color: var(--light);
     margin-left: 3em;
     margin-right: 2em;
+    font-size: 1.25rem;
 }
 
 #portLink {
     color: var(--light);
     margin-left: 3em;
     margin-right: 3em;
+    font-size: 1.25rem;
 }
 
 
