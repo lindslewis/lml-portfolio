@@ -12,10 +12,10 @@ export default function Home() {
         <section id="fullHome">
             <img src={illustration} alt="illustration of Lindsay created by Jovi Barrow" id="homeImg"></img>
             <section id='fullName'>
-                <h1 id='firstName'>Lindsay</h1>
-                <h1 id='lastName'>Lewis</h1>
-                <p>Full-Stack Developer</p>
+                <p id='firstName'>Lindsay</p>
+                <p id='lastName'>Lewis</p>
             </section>
+            <p id="fullStack">Full-Stack Developer</p>
         </section>
 
     );
