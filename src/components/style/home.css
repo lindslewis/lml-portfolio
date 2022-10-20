@@ -34,7 +34,7 @@
     letter-spacing: .25rem;
     color: var(--secondary);
     margin-bottom: -0.75em;
-    padding: 0;
+    /* padding: none; */
 }
 
 #lastName {
@@ -43,7 +43,7 @@
     font-weight: bolder;
     letter-spacing: .25rem;
     color: var(--accent);
-    margin-top: 0em;
+    /* margin-top: 0em; */
     padding: 0;
     border-bottom: var(--secondary);
     border-width: 0 0 5px 0;
