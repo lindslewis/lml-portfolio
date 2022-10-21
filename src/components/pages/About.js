@@ -4,7 +4,7 @@ import profile from '../images/avatar1.jpg'
 
 export default function About() {
     return (
-        <section id='aboutCon'>
+        <section id='aboutCon' className='d-flex flex-column justify-content-center align-items-center'>
             {/* <section id="accentIntro">
                 <p id="intro">
                     Hi there!
@@ -19,7 +19,7 @@ export default function About() {
                     I'm so glad that you are here! 
                 </p>
             </section> */}
-            <img src={profile} alt="headshot of Lindsay" className="rounded-circle" width="300"></img>
+            <img src={profile} alt="headshot of Lindsay" className="rounded-circle " width="300"></img>
             <p id="devAb">
                 I'm a full-stack developer and recent University of Washington Coding Bootcamp graduate. I'm always looking for a challenge and opportunities to grow, not only as a developer, but as a human. 
             </p>
