@@ -7,7 +7,7 @@
 }
 
 #aboutCon {
-    height: 75vh;
+    height: 100%;
 }
 
 #accentIntro {
@@ -17,8 +17,18 @@
 }
 
 #intro {
-    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
     margin: 0;
+    letter-spacing: .25rem;
+    color: var(--secondary);
+}
+
+#nameIn {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    letter-spacing: .25rem;
+    color: var(--accent);
 }
 
 #myName {

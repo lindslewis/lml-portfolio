@@ -20,7 +20,9 @@ export default function About() {
                 </p>
             </section> */}
             <img src={profile} alt="headshot of Lindsay" className="rounded-circle " width="300"></img>
-            <p id="devAb">
+            <h1 id="intro" className='mt-5 align-self-center'>Nice to meet you!</h1>
+            <h1 id='nameIn'>I'm Lindsay.</h1>
+            <p id="devAb" className='mt-3'> 
                 I'm a full-stack developer and recent University of Washington Coding Bootcamp graduate. I'm always looking for a challenge and opportunities to grow, not only as a developer, but as a human. 
             </p>
             <p id="backgroundAb"> 
