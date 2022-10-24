@@ -4,11 +4,11 @@
 // export app
 
 import React from 'react';
-import PortContainer from './components/portContainer';
+import PageNavbar from './components/navbar';
 
 const App = () => {
     return (
-    <PortContainer />
+    <PageNavbar />
     );
 }
 
