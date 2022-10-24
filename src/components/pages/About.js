@@ -22,18 +22,19 @@ export default function About() {
             <img src={profile} alt="headshot of Lindsay" className="rounded-circle " width="300"></img>
             <h1 id="intro" className='mt-5 align-self-center'>Nice to meet you!</h1>
             <h1 id='nameIn'>I'm Lindsay.</h1>
-            <p id="devAb" className='mt-3'> 
-                I'm a full-stack developer and recent University of Washington Coding Bootcamp graduate. I'm always looking for a challenge and opportunities to grow, not only as a developer, but as a human. 
+            <p className='devAb mt-3'> 
+                I'm a full-stack developer based in Portland, Oregon. This September, I completed a full-time, full-stack web development bootcamp with the University of Washington.
             </p>
-            <p id="backgroundAb"> 
-                Having a background in English, I offer a lot of flexibility and differing perspectives to projects.   
+            <p className='devAb'>
+                I have a background in writing and editing, which lend themselves well to coding. I pride myself in my attention to detail, as well as my stubborn determination to complete any and all tasks that come my way. 
             </p>
-            <p id="aboutMe">
-                I love working in the front-end, playing with colors, and pushing the envelope on my own skills. I prefer to go above and beyond the expectations set for me, and I have the perseverence to make that happen.
+            <p className='devAb'>
+                I love a challenge. Being able to push myself to go above and beyond brings me immense satisfaction, so I'm excited to keep learning as I continue down this road in web and software development.
             </p>
-            <p id="aboutEnd">
-                Want to talk? Feel free to reach out!
+            <p className='devAb'>
+                I'd love to hear from you! Please feel free to contact me<a href="#contact" id='aboutLink'>here</a>, or on my socials. 
             </p>
+
         </section>
     );
 }

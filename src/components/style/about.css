@@ -10,11 +10,11 @@
     height: 100%;
 }
 
-#accentIntro {
+/* #accentIntro {
     display: flex;
     flex-direction: column;
     float: left;
-}
+} */
 
 #intro {
     font-family: 'Bebas Neue', cursive;
@@ -31,14 +31,24 @@
     color: var(--accent);
 }
 
-#myName {
+.devAb {
+    font-size: large;
+    letter-spacing: .2rem;
+    max-width: 66vw;
+}
+
+#aboutLink {
+    text-decoration: none;
+    color: var(--other);
+}
+/* #myName {
     font-size: 5rem;
     align-self: center;
     padding-right: 1rem;
     margin: 0;
-}
+} */
 
-#introName {
+/* #introName {
     font-family: 'Bebas Neue', cursive;
     font-size: 10rem;
     font-weight: bold;
@@ -46,10 +56,10 @@
     align-self: center;
     color: var(--accent);
     margin: 0;
-}
+} */
 
-#gladAb {
+/* #gladAb {
     font-size: 5rem;
     margin: 0;
-}
+} */
 
