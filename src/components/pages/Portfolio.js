@@ -4,7 +4,7 @@
 // export
 
 import React from 'react';
-// import '../style/porfolio.css'
+import '../style/porfolio.css'
 import { Image } from 'react-bootstrap';
 
 export default function Portfolio() {
@@ -17,7 +17,7 @@ export default function Portfolio() {
                     </h3>
                     
                         <a href="https://lindslewis.github.io/music-generator/">
-                            <Image id="beatsImg" src={require('../browserHomePagejpg.jpg')}/>
+                            <Image id="beatsImg" src={require('../images/browserHomePagejpg.jpg')}/>
                         </a>
                 </section>
 
