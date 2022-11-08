@@ -4,7 +4,7 @@
 // export
 
 import React from 'react';
-import '../style/porfolio.css'
+import '../style/portfolio.css'
 import { Image } from 'react-bootstrap';
 
 export default function Portfolio() {
