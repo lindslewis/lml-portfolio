@@ -6,12 +6,13 @@
 import React, { useState } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import './style/header.css'
-import avatar from './images/LindsayBGsmol.png'
+// import avatar from './images/LindsayBGsmol.png'
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Image from 'react-bootstrap/Image';
 import Home from './pages/Home';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function PageNavbar() {
     const [ currentPage, setCurrent ] = useState('Home');
@@ -35,12 +36,9 @@ export default function PageNavbar() {
         <section className="header p-2" role="navigation">
             <Navbar id="navCon" role="navigation">
                 <Navbar.Brand href='#home' id="brand" onClick={() => handleChange('Home')} className = { currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
-                    <img alt=''
-                    src={avatar}
-                    width='40'
-                    height='40'
-                    className='d-inline-block align-top rounded-circle'/>
-                    {/* Lindsay Lewis */}
+                    {/* <FontAwesomeIcon icon="fa-solid fa-house" className="d-inline-block align-top"></FontAwesomeIcon> */}
+                    <FontAwesomeIcon icon="fa-solid fa-house" />
+                    Home
                 </Navbar.Brand>
                 <Nav id="navLinks">
                     <Nav.Link href='#about' id="aboutLink" onClick={() => handleChange('About')} className = { currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</Nav.Link>
