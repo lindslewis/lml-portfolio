@@ -60,12 +60,14 @@ export default function PageNavbar() {
             </li>
             <li className='footerList'>
             <a href="https://github.com/lindslewis">
-                <icon icon="fa-brands fa-github" />
+                {/* <icon icon="fa-brands fa-github" /> */}
+                <FontAwesomeIcon icon="fal-brands fal-github" />
             </a>
             </li>
             <li className='footerList'>
                 <a href="https://www.linkedin.com/in/lewis-lindsay/">
-                    <Image className="figure" src="https://cdn.jsdelivr.net/npm/simple-icons@7.8.0/icons/linkedin.svg" alt="LinkedIn badge"></Image>
+
+                    {/* <Image className="figure" src="https://cdn.jsdelivr.net/npm/simple-icons@7.8.0/icons/linkedin.svg" alt="LinkedIn badge"></Image> */}
                 {/* <FontAwesomeIcon className="figure" icon="fa-brands fa-linkedin" /> */}
                 </a>
             </li>

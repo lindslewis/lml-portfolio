@@ -6,3 +6,33 @@
     --other: #78290f;
 }
 
+#portRow {
+    max-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.beats {
+    border: var(--accent);
+}
+
+#beatsImg {
+    height: auto;
+    border-color: var(--accent);
+    border-radius: 30px;
+    margin-right: 20px;
+    border-width: 5px;
+
+}
+
+#HollowImg {
+    height: auto;
+    border-color: var(--accent);
+    border-radius: 30px;
+    margin-right: 20px;
+    border-width: 5px;
+
+}

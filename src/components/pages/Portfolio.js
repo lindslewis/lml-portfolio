@@ -11,13 +11,13 @@ export default function Portfolio() {
     return (
         <section id="portCon">
             <section id='portRow'>
-                <section className='portfolio'>
+                <section className='beats'>
                     <h3 className='portTitle'>
                         beats collective
                     </h3>
                     
                         <a href="https://lindslewis.github.io/music-generator/">
-                            <Image id="beatsImg" src={require('../images/browserHomePagejpg.jpg')}/>
+                            <Image id="beatsImg" src={require('../images/browserHomePagecopy.jpg')}/>
                         </a>
                 </section>
 
@@ -27,7 +27,7 @@ export default function Portfolio() {
                     </h3>
                     
                         <a href="https://funny-meerkat-dcfce3.netlify.app/">
-                            <Image id="HollowImg" src={require('../images/unknown.png')}/>
+                            <Image id="HollowImg" src={require('../images/unknowncopy.png')}/>
                         </a>
 
                 </section>
