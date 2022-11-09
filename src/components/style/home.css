@@ -17,7 +17,7 @@
 #homeImg {
     float: left;
     max-width: auto;
-    height: auto;
+    height: 100%;
 }
 
 #fullName {
