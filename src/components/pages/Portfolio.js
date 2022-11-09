@@ -21,7 +21,7 @@ export default function Portfolio() {
                         </a>
                 </section>
 
-                <section className='portfolio'>
+                <section className='hollow'>
                     <h3 className='portTitle'>
                         The Hollow Reach
                     </h3>

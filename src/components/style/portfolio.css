@@ -16,15 +16,35 @@
 }
 
 .beats {
-    border: var(--accent);
+    border-color: var(--accent);
+    border-style: solid;
+    border-radius: 30px;
+    margin-right: 20px;
+    background-color: var(--accent);
+}
+
+.hollow {
+    border-color: var(--accent);
+    border-style: solid;
+    border-radius: 30px;
+    margin-left: 30px;
+    background-color: var(--accent);
+}
+
+.portTitle {
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: var(--accent);
+    border-radius: 30px;
 }
 
 #beatsImg {
     height: auto;
     border-color: var(--accent);
     border-radius: 30px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     border-width: 5px;
+    /* border-style: solid; */
 
 }
 
@@ -32,7 +52,7 @@
     height: auto;
     border-color: var(--accent);
     border-radius: 30px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     border-width: 5px;
 
 }
