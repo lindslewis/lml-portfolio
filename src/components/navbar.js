@@ -42,7 +42,7 @@ export default function PageNavbar() {
                     className='d-inline-block align-top rounded-circle'/>
                     {/* Lindsay Lewis */}
                 </Navbar.Brand>
-                <Nav>
+                <Nav id="navLinks">
                     <Nav.Link href='#about' id="aboutLink" onClick={() => handleChange('About')} className = { currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</Nav.Link>
                     
                     <Nav.Link href='#portfolio' id="portLink" onClick={() => handleChange('Portfolio')} className = { currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</Nav.Link> 
