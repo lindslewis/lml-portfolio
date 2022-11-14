@@ -19,7 +19,7 @@ export default function About() {
                     I'm so glad that you are here! 
                 </p>
             </section> */}
-            <img src={profile} alt="headshot of Lindsay" className="rounded-circle " width="300"></img>
+            <img id='headshot' src={profile} alt="headshot of Lindsay" className="rounded-circle " width="300"></img>
             <h1 id="intro" className='mt-5 align-self-center'>Nice to meet you!</h1>
             <h1 id='nameIn'>I'm Lindsay.</h1>
             <p className='devAb mt-3'> 

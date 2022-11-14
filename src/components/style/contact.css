@@ -26,6 +26,9 @@
 }
 
 #title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    letter-spacing: .25rem;
     margin-bottom: 2rem;
     text-align: center;
 }

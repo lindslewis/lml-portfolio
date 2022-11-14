@@ -8,6 +8,7 @@
 
 #aboutCon {
     height: 100%;
+    margin: 10px;
 }
 
 /* #accentIntro {
@@ -31,6 +32,9 @@
     color: var(--accent);
 }
 
+#headshot {
+    margin-top: 10px;
+}
 .devAb {
     font-size: large;
     letter-spacing: .2rem;
