@@ -6,6 +6,7 @@
 import React from 'react';
 // import { Button, Form } from 'react-bootstrap';
 import '../style/contact.css';
+import { ExternalLink } from 'react-external-link';
 // import { send } from 'emailjs-com';
 // import validator from 'validator';
 
@@ -53,10 +54,10 @@ export default function Contact() {
         <section className='pageCon d-flex flex-column'>
             <h1 id='title'>Contact Me</h1>
 
-            <p>Thank you for your consideration! Please feel free to reach me at:</p>
-            <p>Github</p>
-            <p>LinkedIn</p>
-            <p>You can also e-mail me!</p>
+            <p id='thanks'>Thank you so much! Please feel free to reach me at:</p>
+            <ExternalLink href='https://github.com/lindslewis' id='contactGit'>Github</ExternalLink>
+            <ExternalLink href='https://www.linkedin.com/in/lewis-lindsay/' id='contactLinked'>LinkedIn</ExternalLink>
+            <p id='contactEm'>You can also e-mail me!</p>
             {/* <Form onSubmit={onSubmit} id="formCon">
             <h1 id='title'>Contact Me</h1>
                 <Form.Group controlId='formName'>

@@ -34,6 +34,35 @@
     color: var(--accent);
 }
 
+#thanks {
+    font-size: large;
+}
+
+#contactGit {
+    font-size: large;
+    text-decoration: none;
+    color: var(--light);
+}
+
+#contactGit:hover {
+    color: var(--accent);
+}
+
+#contactLinked {
+    font-size: large;
+    text-decoration: none;
+    color: var(--light);
+}
+
+#contactLinked:hover {
+    color: var(--accent);
+}
+
+#contactEm {
+    font-size: large;
+}
+
+
 #formCon {
     width: 50%;
 }
