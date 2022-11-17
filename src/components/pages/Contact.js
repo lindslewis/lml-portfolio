@@ -7,6 +7,8 @@ import React from 'react';
 // import { Button, Form } from 'react-bootstrap';
 import '../style/contact.css';
 import { ExternalLink } from 'react-external-link';
+import gitLogo from '../images/GitHub-Mark-Light-64px.png'
+import linkLogo from '../images/LI-In-Bug.png'
 // import Mailto from 'react-mailto';
 // import { Link } from 'react-router-dom'
 // import { send } from 'emailjs-com';
@@ -64,8 +66,16 @@ export default function Contact() {
             <p id='myEmail'>lmschwehr@gmail.com</p>
             <br></br>
             <p id='orReach'>You may also reach me on my socials.</p>
-            <ExternalLink href='https://github.com/lindslewis' id='contactGit'>Github</ExternalLink>
-            <ExternalLink href='https://www.linkedin.com/in/lewis-lindsay/' id='contactLinked'>LinkedIn</ExternalLink>
+            <section id='logos'>
+                <ExternalLink href='https://github.com/lindslewis' id='contactGit'>
+                    <img src={gitLogo} alt='Github Logo'/>
+                </ExternalLink>
+                
+                <ExternalLink href='https://www.linkedin.com/in/lewis-lindsay/' id='contactLinked'>
+                    <img id='linkedLogo' src={linkLogo} alt='LinkedIn Logo'/>
+                </ExternalLink>
+            </section>
+  
             {/* <Link
                 to='#'
                 onClick = {(e) => {
