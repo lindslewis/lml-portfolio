@@ -41,9 +41,13 @@
     max-width: 66vw;
 }
 
-#aboutLink {
+#toContact {
     text-decoration: none;
-    color: var(--other);
+    color: var(--light);
+}
+
+#toContact:hover {
+    color: var(--accent);
 }
 /* #myName {
     font-size: 5rem;

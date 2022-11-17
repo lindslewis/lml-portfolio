@@ -46,7 +46,7 @@ Navbar {
 }
 
 #aboutLink {
-    color: var(--light)!important;
+    color: var(--light);
     margin-left: 3em;
     margin-right: 3em;
     font-size: 1.25rem;

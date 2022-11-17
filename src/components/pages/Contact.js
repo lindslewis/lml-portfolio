@@ -7,10 +7,15 @@ import React from 'react';
 // import { Button, Form } from 'react-bootstrap';
 import '../style/contact.css';
 import { ExternalLink } from 'react-external-link';
+// import Mailto from 'react-mailto';
+// import { Link } from 'react-router-dom'
 // import { send } from 'emailjs-com';
 // import validator from 'validator';
 
 export default function Contact() {
+    // const ButtonMailto = ({ mailto, label }) => {
+
+    
     // const [toSend, setToSend] = useState({
     //     from_name:'',
     //     message:'',
@@ -57,7 +62,16 @@ export default function Contact() {
             <p id='thanks'>Thank you so much! Please feel free to reach me at:</p>
             <ExternalLink href='https://github.com/lindslewis' id='contactGit'>Github</ExternalLink>
             <ExternalLink href='https://www.linkedin.com/in/lewis-lindsay/' id='contactLinked'>LinkedIn</ExternalLink>
-            <p id='contactEm'>You can also e-mail me!</p>
+            {/* <Link
+                to='#'
+                onClick = {(e) => {
+                    window.location.href = mailto;
+                    e.preventDefault();
+                }}
+            >
+                {label}
+            </Link> */}
+            <p id='sendEm'>Or send me an E-Mail at lmschwehr@gmail.com</p>
             {/* <Form onSubmit={onSubmit} id="formCon">
             <h1 id='title'>Contact Me</h1>
                 <Form.Group controlId='formName'>

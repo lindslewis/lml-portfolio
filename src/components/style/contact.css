@@ -58,8 +58,18 @@
     color: var(--accent);
 }
 
+#sendEm {
+    font-size: large;
+}
+
 #contactEm {
     font-size: large;
+    text-decoration: none;
+    color: var(--light);
+}
+
+#contactEm:hover {
+    color: var(--accent);
 }
 
 

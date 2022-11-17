@@ -32,7 +32,7 @@ export default function About() {
                 I love a challenge. Being able to push myself to go above and beyond brings me immense satisfaction, so I'm excited to keep learning as I continue down this road in web and software development.
             </p>
             <p className='devAb'>
-                I'd love to hear from you! Please feel free to contact me<a href="#contact" id='aboutLink'>here</a>, or on my socials. 
+                I'd love to hear from you! Please feel free to contact me <a href="#contact" id='toContact'>here</a>, or on my socials. 
             </p>
 
         </section>
