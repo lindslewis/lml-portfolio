@@ -10,9 +10,12 @@ import './style/header.css'
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
 import Home from './pages/Home';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import gitLogo from './images/GitHub-Mark-Light-64px.png'
+// import linkLogo from './images/LI-In-Bug.png'
+// import { ExternalLink } from 'react-external-link';
 
 export default function PageNavbar() {
     const [ currentPage, setCurrent ] = useState('Home');
@@ -53,24 +56,18 @@ export default function PageNavbar() {
     <footer id="footer">
         <ul id="footerUl">
             <li className='footerList'>
-                <a href="https://stackoverflow.com/users/19833916/lindslewis">
-                    <Image className="figure" src="https://cdn.jsdelivr.net/npm/simple-icons@7.8.0/icons/stackoverflow.svg" alt="Stack Overflow badge"></Image>
-                {/* <FontAwesomeIcon className="figure" icon="fa-brands fa-stack-overflow" /> */}
-                </a>
+                &#169; 2022 Lindsay Lewis
+            </li>
+            {/* <li className='footerList'>
+                <ExternalLink href='https://github.com/lindslewis' id='contactGit'>
+                    <img src={gitLogo} alt='Github Logo'/>
+                </ExternalLink>
             </li>
             <li className='footerList'>
-            <a href="https://github.com/lindslewis">
-                {/* <icon icon="fa-brands fa-github" /> */}
-                <FontAwesomeIcon icon="fal-brands fal-github" />
-            </a>
-            </li>
-            <li className='footerList'>
-                <a href="https://www.linkedin.com/in/lewis-lindsay/">
-
-                    {/* <Image className="figure" src="https://cdn.jsdelivr.net/npm/simple-icons@7.8.0/icons/linkedin.svg" alt="LinkedIn badge"></Image> */}
-                {/* <FontAwesomeIcon className="figure" icon="fa-brands fa-linkedin" /> */}
-                </a>
-            </li>
+                <ExternalLink href='https://www.linkedin.com/in/lewis-lindsay/' id='contactLinked'>
+                    <img id='linkedLogo' src={linkLogo} alt='LinkedIn Logo'/>
+                </ExternalLink>
+            </li> */}
 
         </ul>
 
