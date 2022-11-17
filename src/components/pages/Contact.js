@@ -59,7 +59,11 @@ export default function Contact() {
         <section className='pageCon d-flex flex-column'>
             <h1 id='title'>Contact Me</h1>
 
-            <p id='thanks'>Thank you so much! Please feel free to reach me at:</p>
+            <p id='thanks'>I would love to hear from you.</p>
+            <p id='sendEm'>Please feel free to send me an email:</p>
+            <p id='myEmail'>lmschwehr@gmail.com</p>
+            <br></br>
+            <p id='orReach'>You may also reach me on my socials.</p>
             <ExternalLink href='https://github.com/lindslewis' id='contactGit'>Github</ExternalLink>
             <ExternalLink href='https://www.linkedin.com/in/lewis-lindsay/' id='contactLinked'>LinkedIn</ExternalLink>
             {/* <Link
@@ -71,7 +75,7 @@ export default function Contact() {
             >
                 {label}
             </Link> */}
-            <p id='sendEm'>Or send me an E-Mail at lmschwehr@gmail.com</p>
+           
             {/* <Form onSubmit={onSubmit} id="formCon">
             <h1 id='title'>Contact Me</h1>
                 <Form.Group controlId='formName'>

@@ -3,6 +3,8 @@ import '../style/about.css'
 import profile from '../images/avatar1.jpg'
 
 export default function About() {
+
+
     return (
         <section id='aboutCon' className='d-flex flex-column justify-content-center align-items-center'>
             {/* <section id="accentIntro">
@@ -31,9 +33,9 @@ export default function About() {
             <p className='devAb'>
                 I love a challenge. Being able to push myself to go above and beyond brings me immense satisfaction, so I'm excited to keep learning as I continue down this road in web and software development.
             </p>
-            <p className='devAb'>
-                I'd love to hear from you! Please feel free to contact me <a href="#contact" id='toContact'>here</a>, or on my socials. 
-            </p>
+            {/* <p className='devAb'> */}
+                {/* I'd love to hear from you! Please feel free to contact me <a href="#contact" id='toContact'>here</a>, or on my socials.  */}
+            {/* </p> */}
 
         </section>
     );
