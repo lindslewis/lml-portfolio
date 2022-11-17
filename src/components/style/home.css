@@ -9,6 +9,23 @@
 /* #fullName {
     background-image: url("../images/daud-balling-grsWdC_EH7s-unsplash.jpg")!important;
 } */
+#fullHome {
+    height: 100vh;
+    width: 100%;
+}
+
+#homeImg {
+    float: left;
+    max-width: auto;
+    height: 100%;
+}
+
+#fullName {
+    border-bottom: var(--secondary);
+    border-width: 0 0 5px 0;
+    border-style: solid;
+    max-height: fit-content;
+}
 
 #firstName {
     font-family: 'Bebas Neue', cursive;
@@ -16,7 +33,8 @@
     font-weight: bolder;
     letter-spacing: .25rem;
     color: var(--secondary);
-    margin-bottom: -0.4em;
+    margin-bottom: -0.75em;
+    /* padding: none; */
 }
 
 #lastName {
@@ -25,5 +43,17 @@
     font-weight: bolder;
     letter-spacing: .25rem;
     color: var(--accent);
-    margin-top: 0em;
+    /* margin-top: 0em; */
+    padding: 0;
+    border-bottom: var(--secondary);
+    border-width: 0 0 5px 0;
+    border-style: solid;
+}
+
+#fullStack {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    letter-spacing: .25rem;
+    margin-top: 1rem;
+
 }

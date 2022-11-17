@@ -3,56 +3,90 @@
 // contact info page
 // export
 
-import React, {useState} from 'react';
-import { Button, Form } from 'react-bootstrap';
+import React from 'react';
+// import { Button, Form } from 'react-bootstrap';
 import '../style/contact.css';
-import { send } from 'emailjs-com';
-import validator from 'validator';
+import { ExternalLink } from 'react-external-link';
+import gitLogo from '../images/GitHub-Mark-Light-64px.png'
+import linkLogo from '../images/LI-In-Bug.png'
+// import Mailto from 'react-mailto';
+// import { Link } from 'react-router-dom'
+// import { send } from 'emailjs-com';
+// import validator from 'validator';
 
 export default function Contact() {
-    const [toSend, setToSend] = useState({
-        from_name:'',
-        message:'',
-        reply_to:'',
-    });
+    // const ButtonMailto = ({ mailto, label }) => {
 
-    const [emailError, setEmailError] = useState('')
-    const validateEmail = (e) => {
-        const userEmail = e.target.value
+    
+    // const [toSend, setToSend] = useState({
+    //     from_name:'',
+    //     message:'',
+    //     reply_to:'',
+    // });
 
-        if (validator.isEmail(userEmail)){
-            setEmailError('')
-        } else {
-            setEmailError('Invalid email, please enter a valid email.')
-        }
-    }
+    // const [emailError, setEmailError] = useState('')
+    // const validateEmail = (e) => {
+    //     const userEmail = e.target.value
 
-    // to send emails :)
-    const onSubmit = (e) => {
-        e.preventDefault();
-        send(
-            'service_vpm15qa',
-            'template_r7r2l2e',
-            toSend,
-            // 'USER ID'
-        )
-        .then((res) => {
-            console.log('success!', res.status, res.text);
-        })
-        .catch((err) => {
-            console.log('Failed to send', err);
-        });
-    };
+    //     if (validator.isEmail(userEmail)){
+    //         setEmailError('')
+    //     } else {
+    //         setEmailError('Invalid email, please enter a valid email.')
+    //     }
+    // }
 
-    const handleChange = (e) => {
-        setToSend({...toSend, [e.target.name]: e.target.value});
-        validateEmail([e.target.value])
-    };
+    // // to send emails :)
+    // const onSubmit = (e) => {
+    //     e.preventDefault();
+    //     send(
+    //         'service_vpm15qa',
+    //         'template_r7r2l2e',
+    //         toSend,
+    //         // 'USER ID'
+    //     )
+    //     .then((res) => {
+    //         console.log('success!', res.status, res.text);
+    //     })
+    //     .catch((err) => {
+    //         console.log('Failed to send', err);
+    //     });
+    // };
+
+    // const handleChange = (e) => {
+    //     setToSend({...toSend, [e.target.name]: e.target.value});
+    //     validateEmail([e.target.value])
+    // };
 
     return (
         <section className='pageCon d-flex flex-column'>
+            <h1 id='title'>Contact Me</h1>
 
-            <Form onSubmit={onSubmit} id="formCon">
+            <p id='thanks'>I would love to hear from you.</p>
+            <p id='sendEm'>Please feel free to send me an email:</p>
+            <p id='myEmail'>lmschwehr@gmail.com</p>
+            <br></br>
+            <p id='orReach'>You may also reach me on my socials.</p>
+            <section id='logos'>
+                <ExternalLink href='https://github.com/lindslewis' id='contactGit'>
+                    <img src={gitLogo} alt='Github Logo'/>
+                </ExternalLink>
+                
+                <ExternalLink href='https://www.linkedin.com/in/lewis-lindsay/' id='contactLinked'>
+                    <img id='linkedLogo' src={linkLogo} alt='LinkedIn Logo'/>
+                </ExternalLink>
+            </section>
+  
+            {/* <Link
+                to='#'
+                onClick = {(e) => {
+                    window.location.href = mailto;
+                    e.preventDefault();
+                }}
+            >
+                {label}
+            </Link> */}
+           
+            {/* <Form onSubmit={onSubmit} id="formCon">
             <h1 id='title'>Contact Me</h1>
                 <Form.Group controlId='formName'>
                     <Form.Label className='contactLabel fs-5'>
@@ -80,7 +114,7 @@ export default function Contact() {
                     <Button className="px-5 py-2 fs-4" type="submit">Send</Button>
                 </Form.Group>
 
-            </Form>
+            </Form> */}
 
             {/* not sure the below is necessary... */}
             {/* <p className='mt-4 fs-5'>If you'd like to reach out, be sure to email me via the form above, or you can also reach out at:</p>

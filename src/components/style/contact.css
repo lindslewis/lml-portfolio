@@ -22,13 +22,71 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
 }
 
 #title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    letter-spacing: .25rem;
     margin-bottom: 2rem;
     text-align: center;
+    color: var(--accent);
 }
+
+#thanks {
+    font-size: large;
+}
+
+#contactGit {
+    font-size: large;
+    text-decoration: none;
+    color: var(--light);
+}
+
+#contactGit:hover {
+    color: var(--accent);
+}
+
+#contactLinked {
+    font-size: large;
+    text-decoration: none;
+    color: var(--light);
+}
+
+#contactLinked:hover {
+    color: var(--accent);
+}
+
+#sendEm {
+    font-size: large;
+}
+
+#myEmail {
+    font-size: large;
+    color: var(--accent);
+}
+
+#contactEm {
+    font-size: large;
+    text-decoration: none;
+    color: var(--light);
+}
+
+#contactEm:hover {
+    color: var(--accent);
+}
+
+#orReach {
+    font-size: large;
+}
+
+#linkedLogo {
+    height: auto;
+    width: 4em;
+    margin-left: 2em;
+}
+
 
 #formCon {
     width: 50%;

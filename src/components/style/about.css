@@ -1,0 +1,73 @@
+:root {
+    --dark: #001524;
+    --secondary: #15616d;
+    --light: #ffecd1;
+    --accent: #ff7d00;
+    --other: #78290f;
+}
+
+#aboutCon {
+    height: 100vh;
+    margin: 10px;
+}
+
+/* #accentIntro {
+    display: flex;
+    flex-direction: column;
+    float: left;
+} */
+
+#intro {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: .25rem;
+    color: var(--secondary);
+}
+
+#nameIn {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    letter-spacing: .25rem;
+    color: var(--accent);
+}
+
+#headshot {
+    margin-top: 10px;
+}
+.devAb {
+    font-size: large;
+    letter-spacing: .2rem;
+    max-width: 66vw;
+}
+
+#toContact {
+    text-decoration: none;
+    color: var(--light);
+}
+
+#toContact:hover {
+    color: var(--accent);
+}
+/* #myName {
+    font-size: 5rem;
+    align-self: center;
+    padding-right: 1rem;
+    margin: 0;
+} */
+
+/* #introName {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10rem;
+    font-weight: bold;
+    letter-spacing: .25rem;
+    align-self: center;
+    color: var(--accent);
+    margin: 0;
+} */
+
+/* #gladAb {
+    font-size: 5rem;
+    margin: 0;
+} */
+

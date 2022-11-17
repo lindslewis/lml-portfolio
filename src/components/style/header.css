@@ -15,36 +15,86 @@
 
 .header {
     width: 100%;
-    height: 15vh;
+    height: 8vh;
     position: relative;
+    background-color: var(--secondary)
 };
 
-.nav {
+Navbar {
     top: 0;
     bottom: 0;
     position: absolute;
 }
 
-.nav .nav-item a {
-    color: var(--light);
+#navCon {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: var(--secondary);
 }
 
+#brand {
+    color: var(--light);
+    margin-left: 1em;
+    background-color: var(--secondary);
+}
+
+#navLinks {
+    background-color: var(--secondary);
+}
+
+#aboutLink {
+    color: var(--light);
+    margin-left: 3em;
+    margin-right: 3em;
+    font-size: 1.25rem;
+    background-color: var(--secondary);
+}
+
+/* #aboutLink :hover { */
+    /* color: var(--accent)!important; */
+/* } */
+
+#contactLink {
+    color: var(--light);
+    margin-left: 3em;
+    margin-right: 2em;
+    font-size: 1.25rem;
+    background-color: var(--secondary);
+}
+
+#portLink {
+    color: var(--light);
+    margin-left: 3em;
+    margin-right: 3em;
+    font-size: 1.25rem;
+    background-color: var(--secondary);
+}
+
+
+
 /* want this to be sticky at the bottom OR I guess I could also put these into the header */
-.footer {
-    height: 30em;
-    background-image: linear-gradient(#001524, #15616d, #ff7d00)!important;
+#footer {
+    height: 8vh;
+    background-color: var(--secondary);
+    /* background-image: linear-gradient(#001524, #15616d, #ff7d00)!important; */
 }
 
 #footerUl {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: var(--secondary);
+    align-items: center;
 }
 
 .footerList {
     text-decoration: none;
     list-style: none;
     margin: 1em 4em 1em 4em;
+    background-color: var(--secondary);
 }
 
 .footerList a {
